@@ -9,8 +9,8 @@ const User = () => {
 
   return (
     <main className={styles.main}>
-      <div>
-        <h1>Hello {user?.profile?.first_name}!</h1>
+      <div className={styles.card}>
+        <h2>Hello {user?.profile?.first_name}!</h2>
         <p>This is a private page, only authenticated users can view this</p>
       </div>
     </main>
